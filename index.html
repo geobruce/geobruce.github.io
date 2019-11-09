@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"></script>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <title>Phasor diagram generator</title>
+</head>
+<body>
+    
+    <div class="lefttop" id="svg-window">
+    <svg id="labels" width="100" height="100">
+     </svg>
+    </div>
+
+    <div class="righttop">
+    <p>Menu options</p>
+    <fieldset>
+        <legend>Stock size</legend>
+        Width: <input type="number" value="300" id="stock-width">
+        Height:<input type="number" value="300" id="stock-height">
+    </fieldset>
+    <fieldset>
+            <legend>Label size</legend>
+            Width: <input type="number" id="label-width">
+            Height:<input type="number" id="label-height">
+        </fieldset>
+    <fieldset>
+            <legend>Label spacing</legend>
+            Spacing: <input type="number" id="label-spacing">
+    </fieldset>
+                
+                
+ 
+    <textarea rows = "5" cols = "" id="input_names" name = "description"></textarea><br>
+    <input type="button" id="btn_process" value="Click me" >
+    </div>
+
+    <p>Vectors</p>
+    </div>
+                        
+
+    
+</body>
+</html>
