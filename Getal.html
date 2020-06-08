@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Margriet's gekke getallen generator.</h2>
+
+<button type="button" onclick="randomMargi()"> Doe mij maar een gek getal.</button>
+
+<p id="demo" style="font-size:300%"></p>
+
+<script>
+
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min) ) + min;
+}
+
+function randomMargi(){
+  let nNumbers = getRndInteger(1,10);
+  let number = 0;
+
+  for (i = 0; i < nNumbers; i++) {
+    number = number * 10 + getRndInteger(1,10);
+  } 
+
+  document.getElementById("demo").innerHTML = number;
+}
+
+</script>
+
+</body>
+</html> 
