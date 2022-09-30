@@ -1,3 +1,6 @@
 [submodule "drawer-label-generator"]
 	path = drawer-label-generator
 	url = https://github.com/geobruce/drawer-label-generator
+[submodule "engineering-toolbox"]
+	path = engineering-toolbox
+	url = https://github.com/geobruce/engineering-toolbox
