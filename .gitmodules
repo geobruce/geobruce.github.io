@@ -1,6 +1,3 @@
-[submodule "drawer-label-generator"]
-	path = drawer-label-generator
-	url = https://github.com/geobruce/drawer-label-generator
 [submodule "Calculators"]
 	path = Calculators
 	url = https://github.com/geobruce/Calculators
