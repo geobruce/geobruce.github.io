@@ -4,3 +4,6 @@
 [submodule "engineering-toolbox"]
 	path = engineering-toolbox
 	url = https://github.com/geobruce/engineering-toolbox
+[submodule "Calculators"]
+	path = Calculators
+	url = https://github.com/geobruce/Calculators
