@@ -4,3 +4,6 @@
 [submodule "drawer-label-generator"]
 	path = drawer-label-generator
 	url = https://github.com/geobruce/drawer-label-generator
+[submodule "G-Code-Explorer"]
+	path = G-Code-Explorer
+	url = https://github.com/geobruce/G-Code-Explorer.git
